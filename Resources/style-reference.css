@@ -1,0 +1,207 @@
+*{
+    font-family:Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity:0.9;
+    text-align:center;
+}
+
+h2{
+    font-size:40px;
+    font-weight:700px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+/*----------------------------HEADER---------------------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index:1;
+        
+}
+
+.logo{
+    display: flex;
+    align-items:center;
+    height: 50px;
+    width: 270px;
+    padding-left: 10px;
+}
+
+.teacozy{
+    height: 100%;
+    width: 60%;
+     }
+
+.nav a{
+    padding:  0px 15px;
+}
+
+#loc {
+    padding-right:40px;
+}
+
+
+/*-----------------------BODY--------------------------------*/
+/*-----------------------TEA OF THE MONTH-----------------*/
+#tea{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height:800px;
+    width:1000px;
+    
+    
+}
+
+#TOM{
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    
+      
+}
+
+#tea .row1{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:100%;
+    height:300px;
+    
+}
+
+#tea .row2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin:0 auto;
+    width:700px;
+    height:300px;
+    
+}
+
+
+#image{
+    display:flex;
+    flex-direction: column;
+    height:240px;
+    width:300px;      
+}
+
+
+.thumb{
+    height:200px;
+    width:300px;       
+}
+
+#image h4{
+    margin-top:10px;
+}
+
+
+/*---------------------MISSION-----------------------------*/
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(Images/mission-background.jpg);
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+}
+
+ #mission{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 100px;
+    width:1200px;
+     
+}
+
+
+    
+}
+
+
+
+/*-----------------------LOCATIONS-------------------------*/
+#Location{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items:center;    
+    !important background-color: antiquewhite;
+    background-position:center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#Location h2{
+    margin-bottom:15px;
+    background: none;
+}
+
+#Heading{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    flex-direction: row;
+    background: none;
+    
+}
+
+.adress{
+    display: flex;
+    flex-direction:column;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    margin-bottom: 100px;
+    }
+
+.adress.left{
+    margin-left:110px;
+}
+
+.adress.right{
+    margin-right:110px;
+}
+
+
+
+/*-----------------------FOOTER------------------------------*/
+footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    height: 370px;
+    
+}
+
+#copyright{
+    align-self: flex-start;
+    padding-left:20px;
+}
